@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>✨ Web Developer Portfolio</title>
+  <meta name="description" content="A stunning portfolio for a web developer with magenta vibes, smooth animations, and responsive design." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-wrap">
+      <span style="font-weight:800;">sandhiya.<span style="color:var(--m-500);">magenta</span></span>
+      <div style="flex:1"></div>
+      <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#studies">Studies</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div>
+      <h1>Hello, I'm <span style="color:var(--m-500)">Sandhiya</span> 👋</h1>
+      <p>Passionate developer who loves bringing ideas to life with HTML, CSS and JavaScript. Enthusiastic about animations, accessibility and clean code ✨</p>
+    </div>
+    <div class="profile">
+      <img src="C:\Users\Harinath\Desktop\sandhiya\digital portfolio\profile.jpeg" alt="Profile Photo">
+    </div>
+  </section>
+
+  <section id="about" class="grid cols-2">
+    <div class="card">
+      <h2>About Me 🧑‍💻</h2>
+      <p>I'm a Computer Science student with a strong passion for coding and technology. I aspire to pursue higher education to strengthen my expertise in advanced computer science concepts. With continuous learning and dedication, I am building my skills to solve complex problems through innovative solutions. I aim to contribute to impactful projects and grow as a versatile programmer. My ultimate goal is to reach greater heights in the coding world and establish a meaningful career in the field. 🚀</p>
+    </div>
+    <div class="card">
+      <h2>Details 🪪</h2>
+      <ul>
+        <li><strong>Name:</strong> Sandhiya S</li>
+        <li><strong>Age:</strong> 18</li>
+        <li><strong>Mobile:</strong> +91 81488 21348</li>
+        <li><strong>Email:</strong> sandhiya272007@gmail.com </li>
+        <li><strong>Location:</strong> 🌍 Tamilnadu, India</li>
+        <li><strong>Role:</strong> Frontend Developer</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="studies">
+    <h2>Studies 🎓</h2>
+    <div class="card timeline">
+      <div class="tl-item">
+        <h3>B.Sc in Computer Science with Data Science</h3>
+        <p>2024–2027 · Madras University</p>
+        <h3>M.Sc in Computer Science</h3>
+        <p>2027-2029 · Madras University</p>
+      </div>
+      <div class="tl-item">
+        <h3>Certified Web Professional</h3>
+        <p>2028 · Focus on Advanced JavaScript & Accessibility</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects 🚀</h2>
+    <div class="grid cols-3">
+      <div class="card">
+        <h3>HTML</h3>
+        <p>Registration Form⚡</p>
+      </div>
+      <div class="card">
+        <h3>CSS/JavaScript</h3>
+        <p>ID Card, Digital Portfolio ✍️</p>
+      </div>
+      <div class="card">
+        <h3>Data Visualization</h3>
+        <p>Interactive dashboards and charts 📊</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements 🏆</h2>
+    <div class="grid cols-2">
+      <div class="card">🥇 Hackathon Winner</div>
+      <div class="card">🌟 Open Source Maintainer</div>
+      <div class="card">⚙️ Lighthouse 98/100</div>
+      <div class="card">💬 Speaker — Web Animations</div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills 🧰</h2>
+    <div class="card skills">
+      <span class="chip">HTML</span>
+      <span class="chip">CSS</span>
+      <span class="chip">JavaScript</span>
+      <span class="chip">Animations</span>
+      <span class="chip">Accessibility</span>
+      <span class="chip">Git</span>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact 💌</h2>
+    <div class="grid cols-2">
+      <div class="card">
+        <form>
+          <input type="text" placeholder="Your Name ✍️" required>
+          <input type="email" placeholder="Your Email 📧" required>
+          <textarea placeholder="Message… 🚀" required></textarea>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="card">
+        <h3>Details 📞</h3>
+        <p>📱 Mobile: +91 81488 21348<br>Email: sandhiya272007@gmail.com<br>🌍 Location: Tamilnadu, India</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Sandhiya | All rights reserved</p>
+  </footer>
+
+  <!-- Link external JS -->
+  <script src="script.js"></script>
+</body>
+</html>
